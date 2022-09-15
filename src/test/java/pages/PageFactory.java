@@ -37,7 +37,7 @@ public class PageFactory {
 
     public VerifyProductLinkPage getProductLinkPage() {
         if (getProductLinkPage() == null) {
-             ProductLinkPage= new VerifyProductLinkPage(driver);
+            VerifyProductLinkPage ProductLinkPage = new VerifyProductLinkPage(driver);
         }
         return getProductLinkPage();
 
