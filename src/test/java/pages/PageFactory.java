@@ -3,6 +3,7 @@ import org.openqa.selenium.WebDriver;
     public class PageFactory {
         WebDriver driver;
         private LoginPage loginPage;
+        private DashBoard Dashboard;
         public PageFactory(WebDriver driver){
             this.driver = driver;
         }
@@ -11,6 +12,14 @@ import org.openqa.selenium.WebDriver;
                 loginPage = new LoginPage(driver);
             }
             return loginPage;
+        }
+        public DashBoard getDashboard()
+        {
+            if(Dashboard==null)
+            {Dashboard = new DashBoard(driver);
+
+            }
+            return  Dashboard;
         }
     }
 
