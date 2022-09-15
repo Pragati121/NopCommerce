@@ -14,4 +14,10 @@
             <class name="test.VerifyDashboardButton"/>
         </classes>
     </test>
+    <test name="Verify Product link button">
+        <parameter name="browserName" value="chrome"></parameter>
+        <classes>
+            <class name="test.VerifyProductLinkPage"/>
+        </classes>
+    </test>
 </suite>

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4f88682-a8e2-469b-87c3-b0749e8effef" name="Changes" comment="Updated">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/testNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DashBoard.java" afterDir="false" />
+    <list default="true" id="f4f88682-a8e2-469b-87c3-b0749e8effef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductLinkPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/VerifyProductLinkPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/testNG.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/PageFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="TestCase01" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,11 +59,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pragati Sharma\DemoProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.VerifyDashboardButton.Dash">
     <configuration name="VerifyDashboardButton.Dash" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DemoProject" />
       <extension name="coverage">
@@ -83,9 +85,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VerifyProductLinkPage.Product" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.VerifyProductLinkPage" />
+      <option name="METHOD_NAME" value="Product" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.VerifyDashboardButton.Dash" />
+        <item itemvalue="TestNG.VerifyProductLinkPage.Product" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663125841083</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated">
+      <created>1663212460145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663212460145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
